@@ -139,9 +139,16 @@ class UbermapDevices:
         def get_parameter_by_name(device, nameMapping):
             count = 0
             for i in device.parameters:
-                if nameMapping[0] == str(count) + "_" + i.original_name or nameMapping[0] == i.original_name:
-                    log.info("got " + nameMapping[1] + " for " + nameMapping[0])
-                    i.custom_name = nameMapping[1]
+                if nameMapping[0].split("_")[0] == str(count):
+
+                    log.info(
+                        "got " + nameMapping[1] + " for " + nameMapping[0])
+
+                    # support for dynamic parameter names such as macros that change names
+                    if nameMapping[0].split("_")[1] != i.original_name:
+                        i.custom_name = i.original_name
+                    else:
+                        i.custom_name = nameMapping[1]
 
                     [i.custom_parameter_values, i.custom_parameter_start_points] = get_custom_parameter_values(
                         nameMapping[0])
