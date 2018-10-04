@@ -25,6 +25,11 @@ class UbermapDevices:
 #BBE TEST BEGIN
         log.info('load device name='+device.name+' class_name='+device.class_name+' class_display_name='+device.class_display_name)
 #BBE TEST END
+        # use the default mapping if there is one (filename without a hash)
+        filepath = config.get_config_path(name, 'Devices')
+        if os.path.isfile(filepath):
+            return name
+
         if self.cfg.get('use_md5') == 'True':
             params = ''
             for i in device.parameters[1:]:
