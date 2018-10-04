@@ -7,33 +7,29 @@ from Ubermap import UbermapDevices
 from Ubermap.UbermapLibs import log, config
 import inspect
 
-# def is_v1():
+#def is_v1():
 #    return push_version == '1'
 
-# FIX MULTIPLE VERSION BEING
-# def apply_ubermap_patches():
-
-
+#FIX MULTIPLE VERSION BEING
+#def apply_ubermap_patches():
 def apply_ubermap_patches(is_v1):
-    # FIX END
+#FIX END
     log.info("Applying UbermapDevices patches")
 
     apply_log_method_patches()
     apply_banking_util_patches()
-# FIX MULTIPLE VERSION BEING
+#FIX MULTIPLE VERSION BEING
 #    apply_device_component_patches()
     apply_device_component_patches(is_v1)
-# FIX END
+#FIX END
     apply_device_parameter_bank_patches()
     apply_device_parameter_adapater_patches()
     apply_device_image_filename()
-
 
 # Create singleton UbermapDevices instance
 ubermap = UbermapDevices.UbermapDevices()
 ubermap_config = config.load('global')
 #push_version = ubermap_config.get('Push', 'Version')
-
 
 def apply_log_method_patches():
     # Log any method calls made to the object - useful for tracing execution flow
@@ -41,22 +37,19 @@ def apply_log_method_patches():
     def __getattribute__(self, name):
         returned = object.__getattribute__(self, name)
         if inspect.isfunction(returned) or inspect.ismethod(returned):
-            log.info('Called ' + self.__class__.__name__ +
-                     '::' + str(returned.__name__))
+            log.info('Called ' + self.__class__.__name__ + '::' + str(returned.__name__))
         return returned
 
 ############################################################################################################
 
-
 # BankingUtil
 from pushbase import banking_util
-
 
 def apply_banking_util_patches():
     # device_bank_names - return Ubermap bank names if defined, otherwise use the default
     device_bank_names_orig = banking_util.device_bank_names
 
-    def device_bank_names(device, bank_size=8, definitions=None):
+    def device_bank_names(device, bank_size = 8, definitions = None):
         ubermap_banks = ubermap.get_custom_device_banks(device)
         if ubermap_banks:
             return ubermap_banks
@@ -69,7 +62,7 @@ def apply_banking_util_patches():
     # device_bank_count - return Ubermap bank count if defined, otherwise use the default
     device_bank_count_orig = banking_util.device_bank_count
 
-    def device_bank_count(device, bank_size=8, definition=None, definitions=None):
+    def device_bank_count(device, bank_size = 8, definition = None, definitions = None):
         ubermap_banks = ubermap.get_custom_device_banks(device)
         if ubermap_banks:
             return len(ubermap_banks)
@@ -80,10 +73,8 @@ def apply_banking_util_patches():
 
 ############################################################################################################
 
-
 # DeviceParameterBank
 from pushbase.device_parameter_bank import DeviceParameterBank
-
 
 def apply_device_parameter_bank_patches():
     # _collect_parameters - this method is called by _update_parameters to determine whether we should
@@ -105,14 +96,11 @@ def apply_device_parameter_bank_patches():
 
 ############################################################################################################
 
-
 # DeviceComponent
 from pushbase.device_component import DeviceComponent
 from pushbase.parameter_provider import ParameterInfo
 
-# FIX MULTIPLE VERSION BEING
-
-
+#FIX MULTIPLE VERSION BEING
 def apply_device_component_patches(is_v1):
     # _get_provided_parameters - return Ubermap parameter names if defined, otherwise use the default
     _get_provided_parameters_orig = DeviceComponent._get_provided_parameters
@@ -121,7 +109,7 @@ def apply_device_component_patches(is_v1):
         from Push.parameter_mapping_sensitivities import parameter_mapping_sensitivity, fine_grain_parameter_mapping_sensitivity
     else:
         from Push2.parameter_mapping_sensitivities import parameter_mapping_sensitivity, fine_grain_parameter_mapping_sensitivity
-# FIX END
+#FIX END
 
     def _get_parameter_info(self, parameter):
         if not parameter:
@@ -129,13 +117,11 @@ def apply_device_component_patches(is_v1):
         return ParameterInfo(parameter=parameter, name=parameter.custom_name, default_encoder_sensitivity=parameter_mapping_sensitivity(parameter), fine_grain_encoder_sensitivity=fine_grain_parameter_mapping_sensitivity(parameter))
 
     def _get_provided_parameters(self):
-        ubermap_params = ubermap.get_custom_device_params(
-            self._decorated_device)
+        ubermap_params = ubermap.get_custom_device_params(self._decorated_device)
 
         if ubermap_params:
             param_bank = ubermap_params[self._bank.index]
-            param_info = map(lambda parameter: _get_parameter_info(
-                self, parameter), param_bank)
+            param_info = map(lambda parameter: _get_parameter_info(self, parameter), param_bank)
             return param_info
 
         orig_params = _get_provided_parameters_orig(self)
@@ -145,12 +131,10 @@ def apply_device_component_patches(is_v1):
 
 ############################################################################################################
 
-
 # DeviceParameterAdapter
 from ableton.v2.base import listenable_property
 from Push2.model.repr import DeviceParameterAdapter
 from math import floor
-
 
 def apply_device_parameter_adapater_patches():
     def name(self):
@@ -172,14 +156,11 @@ def apply_device_parameter_adapater_patches():
     DeviceParameterAdapter.valueItems = listenable_property(valueItems)
 
     def value_to_start_point_index(value, start_points):
-        log.debug("start_points: " + str(start_points) + ", len: " +
-                  str(len(start_points)) + ", value: " + str(value))
+        log.debug("start_points: " + str(start_points) + ", len: " + str(len(start_points)) + ", value: " + str(value))
         for index, start_point in enumerate(start_points):
-            log.debug("index: " + str(index) + ", start_point: " +
-                      str(start_point) + ", value: " + str(value))
+            log.debug("index: " + str(index) + ", start_point: " + str(start_point) + ", value: " + str(value))
             if value > start_point and (index == len(start_points) - 1 or value < start_points[index + 1]):
-                log.debug("Input value: " + str(value) + ", output index: " +
-                          str(index) + " with custom start points")
+                log.debug("Input value: " + str(value) + ", output index: " + str(index) + " with custom start points")
                 return index
 
     def value_to_index(value, parameter_values):
@@ -189,8 +170,7 @@ def apply_device_parameter_adapater_patches():
         # If the value is 1.00 we don't want an off by one error
         value_index = value_index - 1 if value_index == values_len else value_index
 
-        log.debug("Input value: " + str(value) +
-                  ", output index: " + str(value_index))
+        log.debug("Input value: " + str(value) + ", output index: " + str(value_index))
 
         return value_index
 
@@ -199,7 +179,7 @@ def apply_device_parameter_adapater_patches():
             if getattr(self._adaptee, 'custom_parameter_start_points', None):
                 return value_to_start_point_index(self._adaptee.value, self._adaptee.custom_parameter_start_points)
             else:
-                return value_to_index(self._adaptee.value, self._adaptee.custom_parameter_values)
+               return value_to_index(self._adaptee.value, self._adaptee.custom_parameter_values)
         else:
             return self._adaptee.value
 
@@ -207,14 +187,12 @@ def apply_device_parameter_adapater_patches():
 
 ############################################################################################################
 
-
 # DeviceParameterAdapter
 from ableton.v2.base import liveobj_valid
 from Push2.device_parameter_icons import get_image_filenames, get_image_filenames_from_ids
 
-
 def apply_device_image_filename():
-    def _get_image_filenames(self, small_images=False):
+    def _get_image_filenames(self, small_images = False):
         device = self.canonical_parent
         if not hasattr(device, u'class_name'):
             return []
@@ -222,8 +200,7 @@ def apply_device_image_filename():
             custom_images = None
             if liveobj_valid(device):
                 try:
-                    custom_images = device.get_value_item_icons(
-                        getattr(self._adaptee, u'original_parameter', self._adaptee))
+                    custom_images = device.get_value_item_icons(getattr(self._adaptee, u'original_parameter', self._adaptee))
 #                except (AttributeError, RuntimeError):
 #                except (AttributeError, RuntimeError, ArgumentError):
                 except (AttributeError, RuntimeError):
