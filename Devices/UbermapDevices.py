@@ -25,7 +25,7 @@ class UbermapDevices:
 #BBE TEST BEGIN
         log.info('load device name='+device.name+' class_name='+device.class_name+' class_display_name='+device.class_display_name)
 #BBE TEST END
-        if self.cfg.get('use_md5'):
+        if self.cfg.get('use_md5') == 'True':
             params = ''
             for i in device.parameters[1:]:
                 params += i.original_name
