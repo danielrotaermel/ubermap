@@ -4,12 +4,13 @@ from functools import partial
 import hashlib
 from Ubermap.UbermapLibs import log, log_call, config
 
+
 class UbermapDevices:
     PARAMS_PER_BANK = 8
     SECTION_BANKS = 'Banks'
     SECTION_PARAMETER_VALUES = 'ParameterValues'
     SECTION_PARAMETER_VALUE_TYPES = 'ParameterValueTypes'
-    SECTION_CONFIG  = 'Config'
+    SECTION_CONFIG = 'Config'
 
     device_config_cache = {}
 
@@ -22,9 +23,11 @@ class UbermapDevices:
             return ''
 
         name = device.class_display_name
-#BBE TEST BEGIN
-        log.info('load device name='+device.name+' class_name='+device.class_name+' class_display_name='+device.class_display_name)
-#BBE TEST END
+# BBE TEST BEGIN
+        log.info('load device name='+device.name+' class_name=' +
+                 device.class_name+' class_display_name='+device.class_display_name)
+# BBE TEST END
+
         # use the default mapping if there is one (filename without a hash)
         filepath = config.get_config_path(name, 'Devices')
         if os.path.isfile(filepath):
@@ -35,6 +38,7 @@ class UbermapDevices:
             for i in device.parameters[1:]:
                 params += i.original_name
             name += '_' + hashlib.md5(params).hexdigest()
+
         return name
 
     def get_device_filename(self, device):
@@ -59,19 +63,23 @@ class UbermapDevices:
         config[self.SECTION_PARAMETER_VALUE_TYPES] = {}
 
         config[self.SECTION_CONFIG] = {}
-        config[self.SECTION_CONFIG]['Cache']  = False
+        config[self.SECTION_CONFIG]['Cache'] = False
         config[self.SECTION_CONFIG]['Ignore'] = True
 
         count = 0
         bank = 1
         total_count = 1
+
         for i in device.parameters[1:]:
             if(count == 0):
                 section = 'Bank ' + str(bank)
                 config[self.SECTION_BANKS][section] = {}
                 bank = bank + 1
 
-            config[self.SECTION_BANKS][section][str(total_count) + "_" + i.original_name] = i.original_name
+            log.info('banks: ' + str(type(i)))
+
+            config[self.SECTION_BANKS][section][str(
+                total_count) + "_" + i.original_name] = i.original_name
 
             count = count + 1
             total_count = total_count + 1
@@ -87,7 +95,6 @@ class UbermapDevices:
             return False
         return cfg if cfg.get('Config', 'Ignore') == 'False' else False
 
-
     def get_custom_device_banks(self, device):
         device_config = self.get_device_config(device)
         if(not device_config):
@@ -96,7 +103,7 @@ class UbermapDevices:
 
         return device_config.get(self.SECTION_BANKS).keys()
 
-    def get_custom_device_params(self, device, bank_name = None):
+    def get_custom_device_params(self, device, bank_name=None):
         if not bank_name:
             bank_name = self.SECTION_BANKS
 
@@ -114,7 +121,8 @@ class UbermapDevices:
             return [[x[0] for x in values_split], [float(x[1]) for x in values_split]]
 
         def get_custom_parameter_values(parameter_name):
-            values = device_config.get(self.SECTION_PARAMETER_VALUES, parameter_name)
+            values = device_config.get(
+                self.SECTION_PARAMETER_VALUES, parameter_name)
             if not values:
                 return [None, None]
 
@@ -123,7 +131,8 @@ class UbermapDevices:
                 return parse_custom_parameter_values(values)
 
             # Otherwise try and look up the string key in ParameterValueTypes and use that
-            values_type = device_config.get(self.SECTION_PARAMETER_VALUE_TYPES, values)
+            values_type = device_config.get(
+                self.SECTION_PARAMETER_VALUE_TYPES, values)
             if values_type:
                 return parse_custom_parameter_values(values_type)
 
@@ -134,7 +143,8 @@ class UbermapDevices:
                     log.info("got " + nameMapping[1] + " for " + nameMapping[0])
                     i.custom_name = nameMapping[1]
 
-                    [i.custom_parameter_values, i.custom_parameter_start_points] = get_custom_parameter_values(nameMapping[0])
+                    [i.custom_parameter_values, i.custom_parameter_start_points] = get_custom_parameter_values(
+                        nameMapping[0])
 
                     return i
                 count = count + 1
