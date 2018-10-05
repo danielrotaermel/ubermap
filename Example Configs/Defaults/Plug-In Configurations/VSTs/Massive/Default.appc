@@ -1,0 +1,774 @@
+{
+    "id" : "application/vnd.ableton.plugin-configuration",
+    "version" : "1.0",
+    "device-id" : "device:vst:instr:1315523937?n=Massive",
+    "groups" : [
+        {
+            "name" : "Default",
+            "parameters" : [
+                {
+                    "name" : "1 Vibrato",
+                    "id" : 0,
+                    "x-slot" : 0,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "2",
+                    "id" : 1,
+                    "x-slot" : 0,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "3",
+                    "id" : 2,
+                    "x-slot" : 0,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "4",
+                    "id" : 3,
+                    "x-slot" : 0,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "5",
+                    "id" : 4,
+                    "x-slot" : 1,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "6",
+                    "id" : 5,
+                    "x-slot" : 1,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "7",
+                    "id" : 6,
+                    "x-slot" : 1,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "8",
+                    "id" : 7,
+                    "x-slot" : 1,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "OSC1-PITCH",
+                    "id" : 8,
+                    "x-slot" : 2,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "OSC1-POSITION",
+                    "id" : 9,
+                    "x-slot" : 2,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "OSC1-PARAM2",
+                    "id" : 10,
+                    "x-slot" : 2,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "OSC1-AMP",
+                    "id" : 11,
+                    "x-slot" : 2,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "OSC1-FLT.ROUTING",
+                    "id" : 12,
+                    "x-slot" : 3,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "OSC2-PITCH",
+                    "id" : 13,
+                    "x-slot" : 3,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "OSC2-POSITION",
+                    "id" : 14,
+                    "x-slot" : 3,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "OSC2-PARAM2",
+                    "id" : 15,
+                    "x-slot" : 3,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "OSC2-AMP",
+                    "id" : 16,
+                    "x-slot" : 4,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "OSC2-FLT.ROUTING",
+                    "id" : 17,
+                    "x-slot" : 4,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "OSC3-PITCH",
+                    "id" : 18,
+                    "x-slot" : 4,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "OSC3-POSITION",
+                    "id" : 19,
+                    "x-slot" : 4,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "OSC3-PARAM2",
+                    "id" : 20,
+                    "x-slot" : 5,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "OSC3-AMP",
+                    "id" : 21,
+                    "x-slot" : 5,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "OSC3-FLT.ROUTING",
+                    "id" : 22,
+                    "x-slot" : 5,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "MOD.OSC-PITCH",
+                    "id" : 28,
+                    "x-slot" : 5,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "M.OSC-RM",
+                    "id" : 29,
+                    "x-slot" : 6,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "NOISE-COLOR",
+                    "id" : 23,
+                    "x-slot" : 6,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "NOISE-AMP",
+                    "id" : 24,
+                    "x-slot" : 6,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "NSE-F.RT",
+                    "id" : 25,
+                    "x-slot" : 6,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "F.BACK-AMP",
+                    "id" : 26,
+                    "x-slot" : 7,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "FB-FLT.ROUTING",
+                    "id" : 27,
+                    "x-slot" : 7,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "FILTER1-CUT",
+                    "id" : 33,
+                    "x-slot" : 7,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "FILTER1-BW",
+                    "id" : 34,
+                    "x-slot" : 7,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "FILTER1-RES",
+                    "id" : 35,
+                    "x-slot" : 8,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "FILTER1-OUT GAIN",
+                    "id" : 52,
+                    "x-slot" : 8,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "FILTER2-CUT",
+                    "id" : 36,
+                    "x-slot" : 8,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "FILTER2-BW",
+                    "id" : 37,
+                    "x-slot" : 8,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "FILTER2-RES",
+                    "id" : 38,
+                    "x-slot" : 9,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "FILTER2-OUT GAIN",
+                    "id" : 53,
+                    "x-slot" : 9,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "SERIELL-PARALLEL",
+                    "id" : 39,
+                    "x-slot" : 9,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "FLT.1/2-C.FADE",
+                    "id" : 54,
+                    "x-slot" : 9,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "MASTER FX1-DW",
+                    "id" : 44,
+                    "x-slot" : 10,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "MASTER FX1-PRM.2",
+                    "id" : 45,
+                    "x-slot" : 10,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "MASTER FX1-PRM.3",
+                    "id" : 46,
+                    "x-slot" : 10,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "MASTER FX1-PRM.4",
+                    "id" : 47,
+                    "x-slot" : 10,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "MASTER FX2-DW",
+                    "id" : 48,
+                    "x-slot" : 11,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "MASTER FX2-PRM.2",
+                    "id" : 49,
+                    "x-slot" : 11,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "MASTER FX2-PRM.3",
+                    "id" : 50,
+                    "x-slot" : 11,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "MASTER FX2-PRM.4",
+                    "id" : 51,
+                    "x-slot" : 11,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "EQ-LoShelf.BOOST",
+                    "id" : 132,
+                    "x-slot" : 12,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "EQ-Peak.BOOST",
+                    "id" : 133,
+                    "x-slot" : 12,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "EQ-Peak.FREQ",
+                    "id" : 134,
+                    "x-slot" : 12,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "EQ-HiShelf.BOOST",
+                    "id" : 135,
+                    "x-slot" : 12,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "PAN (Fltr-Path)",
+                    "id" : 56,
+                    "x-slot" : 13,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "BYPASS-GAIN",
+                    "id" : 55,
+                    "x-slot" : 13,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "MASTER-VOLUME",
+                    "id" : 57,
+                    "x-slot" : 13,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "ENV1-DLY",
+                    "id" : 90,
+                    "x-slot" : 13,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "ENV1ATT.T",
+                    "id" : 94,
+                    "x-slot" : 14,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "ENV1ATT.L",
+                    "id" : 98,
+                    "x-slot" : 14,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "ENV1DEC.T",
+                    "id" : 102,
+                    "x-slot" : 14,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "ENV1DEC.L",
+                    "id" : 106,
+                    "x-slot" : 14,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "ENV1REL.T",
+                    "id" : 122,
+                    "x-slot" : 15,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "ENV1-VEL",
+                    "id" : 82,
+                    "x-slot" : 15,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "ENV1-KTR",
+                    "id" : 86,
+                    "x-slot" : 15,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "ENV1SST.T",
+                    "id" : 110,
+                    "x-slot" : 15,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "ENV1MORPH",
+                    "id" : 118,
+                    "x-slot" : 16,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "ENV1SST.L",
+                    "id" : 114,
+                    "x-slot" : 16,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "ENV2-DLY",
+                    "id" : 91,
+                    "x-slot" : 16,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "ENV2ATT.T",
+                    "id" : 95,
+                    "x-slot" : 16,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "ENV2ATT.L",
+                    "id" : 99,
+                    "x-slot" : 17,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "ENV2DEC.T",
+                    "id" : 103,
+                    "x-slot" : 17,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "ENV2DEC.L",
+                    "id" : 107,
+                    "x-slot" : 17,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "ENV2REL.T",
+                    "id" : 123,
+                    "x-slot" : 17,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "ENV2-VEL",
+                    "id" : 83,
+                    "x-slot" : 18,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "ENV2-KTR",
+                    "id" : 87,
+                    "x-slot" : 18,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "ENV2SST.T",
+                    "id" : 111,
+                    "x-slot" : 18,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "ENV2MORPH",
+                    "id" : 119,
+                    "x-slot" : 18,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "ENV2SST.L",
+                    "id" : 115,
+                    "x-slot" : 19,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "ENV3-DLY",
+                    "id" : 92,
+                    "x-slot" : 19,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "ENV3ATT.T",
+                    "id" : 96,
+                    "x-slot" : 19,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "ENV3ATT.L",
+                    "id" : 100,
+                    "x-slot" : 19,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "ENV3DEC.T",
+                    "id" : 104,
+                    "x-slot" : 20,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "ENV3DEC.L",
+                    "id" : 108,
+                    "x-slot" : 20,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "ENV3REL.T",
+                    "id" : 124,
+                    "x-slot" : 20,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "ENV3-VEL",
+                    "id" : 84,
+                    "x-slot" : 20,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "ENV3-KTR",
+                    "id" : 88,
+                    "x-slot" : 21,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "ENV3SST.T",
+                    "id" : 112,
+                    "x-slot" : 21,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "ENV3MORPH",
+                    "id" : 120,
+                    "x-slot" : 21,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "ENV3SST.L",
+                    "id" : 116,
+                    "x-slot" : 21,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "ENV4-DLY",
+                    "id" : 93,
+                    "x-slot" : 22,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "ENV4ATT.T",
+                    "id" : 97,
+                    "x-slot" : 22,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "ENV4ATT.L",
+                    "id" : 101,
+                    "x-slot" : 22,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "ENV4DEC.T",
+                    "id" : 105,
+                    "x-slot" : 22,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "ENV4DEC.L",
+                    "id" : 109,
+                    "x-slot" : 23,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "ENV4REL.T",
+                    "id" : 125,
+                    "x-slot" : 23,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "ENV4-VEL",
+                    "id" : 85,
+                    "x-slot" : 23,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "ENV4-KTR",
+                    "id" : 89,
+                    "x-slot" : 23,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "ENV4SST.T",
+                    "id" : 113,
+                    "x-slot" : 24,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "ENV4MORPH",
+                    "id" : 121,
+                    "x-slot" : 24,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "ENV4SST.L",
+                    "id" : 117,
+                    "x-slot" : 24,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "MOD5-RTE",
+                    "id" : 58,
+                    "x-slot" : 24,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "MOD5-NUM",
+                    "id" : 137,
+                    "x-slot" : 25,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "MOD5-DEN",
+                    "id" : 141,
+                    "x-slot" : 25,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "MOD15-SNC",
+                    "id" : 74,
+                    "x-slot" : 25,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "MOD5-RST",
+                    "id" : 78,
+                    "x-slot" : 25,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "MOD5-AMP",
+                    "id" : 62,
+                    "x-slot" : 26,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "MOD5-CF/G",
+                    "id" : 66,
+                    "x-slot" : 26,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "MOD6-RTE",
+                    "id" : 59,
+                    "x-slot" : 26,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "MOD6-NUM",
+                    "id" : 138,
+                    "x-slot" : 26,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "MOD6-DEN",
+                    "id" : 142,
+                    "x-slot" : 27,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "MOD26-SNC",
+                    "id" : 75,
+                    "x-slot" : 27,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "MOD6-RST",
+                    "id" : 79,
+                    "x-slot" : 27,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "MOD6-AMP",
+                    "id" : 63,
+                    "x-slot" : 27,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "MOD6-CF/G",
+                    "id" : 67,
+                    "x-slot" : 28,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "MOD7-RTE",
+                    "id" : 60,
+                    "x-slot" : 28,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "MOD7-NUM",
+                    "id" : 139,
+                    "x-slot" : 28,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "MOD7-DEN",
+                    "id" : 143,
+                    "x-slot" : 28,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "MOD37-SNC",
+                    "id" : 76,
+                    "x-slot" : 29,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "MOD7-RST",
+                    "id" : 80,
+                    "x-slot" : 29,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "MOD7-AMP",
+                    "id" : 64,
+                    "x-slot" : 29,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "MOD7-CF/G",
+                    "id" : 68,
+                    "x-slot" : 29,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "MOD8-RTE",
+                    "id" : 61,
+                    "x-slot" : 30,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "MOD8-NUM",
+                    "id" : 140,
+                    "x-slot" : 30,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "MOD8-DEN",
+                    "id" : 144,
+                    "x-slot" : 30,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "MOD48-SNC",
+                    "id" : 77,
+                    "x-slot" : 30,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "MOD8-RST",
+                    "id" : 81,
+                    "x-slot" : 31,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "MOD8-AMP",
+                    "id" : 65,
+                    "x-slot" : 31,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "MOD8-CF/G",
+                    "id" : 69,
+                    "x-slot" : 31,
+                    "y-slot" : 2
+                }
+            ]
+        }
+    ]
+}

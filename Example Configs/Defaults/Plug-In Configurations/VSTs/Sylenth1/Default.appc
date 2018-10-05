@@ -1,0 +1,780 @@
+{
+    "id" : "application/vnd.ableton.plugin-configuration",
+    "version" : "1.0",
+    "device-id" : "device:vst:instr:1937337393?n=Sylenth1",
+    "groups" : [
+        {
+            "name" : "Default",
+            "parameters" : [
+                {
+                    "name" : "AmpEnv A Attack",
+                    "id" : 0,
+                    "x-slot" : 0,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "AmpEnv A Decay",
+                    "id" : 1,
+                    "x-slot" : 0,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "AmpEnv A Sustain",
+                    "id" : 3,
+                    "x-slot" : 0,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "AmpEnv A Release",
+                    "id" : 2,
+                    "x-slot" : 0,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Osc A1 Volume",
+                    "id" : 91,
+                    "x-slot" : 1,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Osc A1 Phase",
+                    "id" : 87,
+                    "x-slot" : 1,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Osc A1 Detune",
+                    "id" : 81,
+                    "x-slot" : 1,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Osc A1 Stereo",
+                    "id" : 89,
+                    "x-slot" : 1,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Osc A1 Pan",
+                    "id" : 86,
+                    "x-slot" : 2,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Osc A1 Octave",
+                    "id" : 85,
+                    "x-slot" : 2,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Osc A1 Note",
+                    "id" : 84,
+                    "x-slot" : 2,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Osc A1 Invert",
+                    "id" : 83,
+                    "x-slot" : 2,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Osc A1 Waveform",
+                    "id" : 92,
+                    "x-slot" : 3,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Osc A1 Voices",
+                    "id" : 90,
+                    "x-slot" : 3,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Osc A1 Retrigger",
+                    "id" : 88,
+                    "x-slot" : 3,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Osc A2 Volume",
+                    "id" : 103,
+                    "x-slot" : 3,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Osc A2 Phase",
+                    "id" : 99,
+                    "x-slot" : 4,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Osc A2 Detune",
+                    "id" : 93,
+                    "x-slot" : 4,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Osc A2 Stereo",
+                    "id" : 101,
+                    "x-slot" : 4,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Osc A2 Pan",
+                    "id" : 98,
+                    "x-slot" : 4,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Osc A2 Octave",
+                    "id" : 97,
+                    "x-slot" : 5,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Osc A2 Note",
+                    "id" : 96,
+                    "x-slot" : 5,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Osc A2 Invert",
+                    "id" : 95,
+                    "x-slot" : 5,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Osc A2 Waveform",
+                    "id" : 104,
+                    "x-slot" : 5,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Osc A2 Voices",
+                    "id" : 102,
+                    "x-slot" : 6,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Osc A2 Retrigger",
+                    "id" : 100,
+                    "x-slot" : 6,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Filter A Cutoff",
+                    "id" : 42,
+                    "x-slot" : 6,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Filter A Reso",
+                    "id" : 45,
+                    "x-slot" : 6,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Filter A Drive",
+                    "id" : 43,
+                    "x-slot" : 7,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Filter A Type",
+                    "id" : 46,
+                    "x-slot" : 7,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Filter A Input",
+                    "id" : 44,
+                    "x-slot" : 7,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Filter A dB",
+                    "id" : 47,
+                    "x-slot" : 7,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "AmpEnv B Attack",
+                    "id" : 4,
+                    "x-slot" : 8,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "AmpEnv B Decay",
+                    "id" : 5,
+                    "x-slot" : 8,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "AmpEnv B Sustain",
+                    "id" : 7,
+                    "x-slot" : 8,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "AmpEnv B Release",
+                    "id" : 6,
+                    "x-slot" : 8,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Osc B1 Volume",
+                    "id" : 115,
+                    "x-slot" : 9,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Osc B1 Phase",
+                    "id" : 111,
+                    "x-slot" : 9,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Osc B1 Detune",
+                    "id" : 105,
+                    "x-slot" : 9,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Osc B1 Stereo",
+                    "id" : 113,
+                    "x-slot" : 9,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Osc B1 Pan",
+                    "id" : 110,
+                    "x-slot" : 10,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Osc B1 Octave",
+                    "id" : 109,
+                    "x-slot" : 10,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Osc B1 Note",
+                    "id" : 108,
+                    "x-slot" : 10,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Osc B1 Invert",
+                    "id" : 107,
+                    "x-slot" : 10,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Osc B1 Waveform",
+                    "id" : 116,
+                    "x-slot" : 11,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Osc B1 Voices",
+                    "id" : 114,
+                    "x-slot" : 11,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Osc B1 Retrigger",
+                    "id" : 112,
+                    "x-slot" : 11,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Osc B2 Volume",
+                    "id" : 127,
+                    "x-slot" : 11,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Osc B2 Phase",
+                    "id" : 123,
+                    "x-slot" : 12,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Osc B2 Detune",
+                    "id" : 117,
+                    "x-slot" : 12,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Osc B2 Stereo",
+                    "id" : 125,
+                    "x-slot" : 12,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Osc B2 Pan",
+                    "id" : 122,
+                    "x-slot" : 12,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Osc B2 Octave",
+                    "id" : 121,
+                    "x-slot" : 13,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Osc B2 Note",
+                    "id" : 120,
+                    "x-slot" : 13,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Osc B2 Invert",
+                    "id" : 119,
+                    "x-slot" : 13,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Osc B2 Waveform",
+                    "id" : 128,
+                    "x-slot" : 13,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Osc B2 Voices",
+                    "id" : 126,
+                    "x-slot" : 14,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Osc B2 Retrigger",
+                    "id" : 124,
+                    "x-slot" : 14,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Filter B Cutoff",
+                    "id" : 48,
+                    "x-slot" : 14,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Filter B Reso",
+                    "id" : 51,
+                    "x-slot" : 14,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Filter B Drive",
+                    "id" : 49,
+                    "x-slot" : 15,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Filter B Type",
+                    "id" : 52,
+                    "x-slot" : 15,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Filter B Input",
+                    "id" : 50,
+                    "x-slot" : 15,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Filter B dB",
+                    "id" : 53,
+                    "x-slot" : 15,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "yPart Select",
+                    "id" : 241,
+                    "x-slot" : 16,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "FilterCtl Cutoff",
+                    "id" : 54,
+                    "x-slot" : 16,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "FilterCtl Reso",
+                    "id" : 56,
+                    "x-slot" : 16,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "FilterCtl WarmDrive",
+                    "id" : 57,
+                    "x-slot" : 16,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "FilterCtl KeyTrk",
+                    "id" : 55,
+                    "x-slot" : 17,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Mix A",
+                    "id" : 69,
+                    "x-slot" : 17,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Mix B",
+                    "id" : 70,
+                    "x-slot" : 17,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Main Volume",
+                    "id" : 68,
+                    "x-slot" : 17,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "ModEnv 1 Attack",
+                    "id" : 71,
+                    "x-slot" : 18,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "ModEnv 1 Decay",
+                    "id" : 72,
+                    "x-slot" : 18,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "ModEnv 1 Sustain",
+                    "id" : 74,
+                    "x-slot" : 18,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "ModEnv 1 Release",
+                    "id" : 73,
+                    "x-slot" : 18,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "xModEnv1 Dest1Am",
+                    "id" : 197,
+                    "x-slot" : 19,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "yModEnv1 Dest1",
+                    "id" : 225,
+                    "x-slot" : 19,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "xModEnv1 Dest2Am",
+                    "id" : 198,
+                    "x-slot" : 19,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "yModEnv1 Dest2",
+                    "id" : 226,
+                    "x-slot" : 19,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "ModEnv 2 Attack",
+                    "id" : 75,
+                    "x-slot" : 20,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "ModEnv 2 Decay",
+                    "id" : 76,
+                    "x-slot" : 20,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "ModEnv 2 Sustain",
+                    "id" : 78,
+                    "x-slot" : 20,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "ModEnv 2 Release",
+                    "id" : 77,
+                    "x-slot" : 20,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "xModEnv2 Dest1Am",
+                    "id" : 199,
+                    "x-slot" : 21,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "yModEnv2 Dest1",
+                    "id" : 227,
+                    "x-slot" : 21,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "xModEnv2 Dest2Am",
+                    "id" : 200,
+                    "x-slot" : 21,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "yModEnv2 Dest2",
+                    "id" : 228,
+                    "x-slot" : 21,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "LFO 1 Wave",
+                    "id" : 62,
+                    "x-slot" : 22,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "LFO 1 Rate",
+                    "id" : 61,
+                    "x-slot" : 22,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "LFO 1 Gain",
+                    "id" : 59,
+                    "x-slot" : 22,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "LFO 1 Offset",
+                    "id" : 60,
+                    "x-slot" : 22,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "xModLFO1 Dest1Am",
+                    "id" : 201,
+                    "x-slot" : 23,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "yModLFO1 Dest1",
+                    "id" : 229,
+                    "x-slot" : 23,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "xModLFO1 Dest2Am",
+                    "id" : 202,
+                    "x-slot" : 23,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "yModLFO1 Dest2",
+                    "id" : 230,
+                    "x-slot" : 23,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "LFO 2 Wave",
+                    "id" : 67,
+                    "x-slot" : 24,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "LFO 2 Rate",
+                    "id" : 66,
+                    "x-slot" : 24,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "LFO 2 Gain",
+                    "id" : 64,
+                    "x-slot" : 24,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "LFO 2 Offset",
+                    "id" : 65,
+                    "x-slot" : 24,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "xModLFO2 Dest1Am",
+                    "id" : 203,
+                    "x-slot" : 25,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "yModLFO2 Dest1",
+                    "id" : 231,
+                    "x-slot" : 25,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "xModLFO2 Dest2Am",
+                    "id" : 204,
+                    "x-slot" : 25,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "yModLFO2 Dest2",
+                    "id" : 232,
+                    "x-slot" : 25,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "PitchBend Range",
+                    "id" : 138,
+                    "x-slot" : 26,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Porta Time",
+                    "id" : 141,
+                    "x-slot" : 26,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Mono Legato",
+                    "id" : 80,
+                    "x-slot" : 26,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Porta Mode",
+                    "id" : 140,
+                    "x-slot" : 26,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "xSw ArpOnOff",
+                    "id" : 217,
+                    "x-slot" : 27,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Arp Time",
+                    "id" : 11,
+                    "x-slot" : 27,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Arp Mode",
+                    "id" : 9,
+                    "x-slot" : 27,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Arp Octave",
+                    "id" : 10,
+                    "x-slot" : 27,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "xSw DistOnOff",
+                    "id" : 221,
+                    "x-slot" : 28,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Distort DryWet",
+                    "id" : 36,
+                    "x-slot" : 28,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Distort Amount",
+                    "id" : 35,
+                    "x-slot" : 28,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "xSw PhaserOnOff",
+                    "id" : 223,
+                    "x-slot" : 28,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Phaser Dry/Wet",
+                    "id" : 130,
+                    "x-slot" : 29,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "xSw ChorusOnOff",
+                    "id" : 218,
+                    "x-slot" : 29,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Chorus Dry/Wet",
+                    "id" : 16,
+                    "x-slot" : 29,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "xSw EQOnOff",
+                    "id" : 222,
+                    "x-slot" : 29,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "xSw DelayOnOff",
+                    "id" : 220,
+                    "x-slot" : 30,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Delay Dry/Wet",
+                    "id" : 25,
+                    "x-slot" : 30,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "xSw ReverbOnOff",
+                    "id" : 224,
+                    "x-slot" : 30,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Reverb Dry/Wet",
+                    "id" : 143,
+                    "x-slot" : 30,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Reverb Width",
+                    "id" : 146,
+                    "x-slot" : 31,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "xSw CompOnOff",
+                    "id" : 219,
+                    "x-slot" : 31,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Comp Ratio",
+                    "id" : 22,
+                    "x-slot" : 31,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Comp Threshold",
+                    "id" : 24,
+                    "x-slot" : 31,
+                    "y-slot" : 3
+                }
+            ]
+        }
+    ]
+}

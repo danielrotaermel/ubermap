@@ -1,0 +1,774 @@
+{
+    "id" : "application/vnd.ableton.plugin-configuration",
+    "version" : "1.0",
+    "device-id" : "device:vst:instr:1483109208?n=Serum",
+    "groups" : [
+        {
+            "name" : "Default",
+            "parameters" : [
+                {
+                    "name" : "Osc A On",
+                    "id" : 212,
+                    "x-slot" : 0,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "A WTPos",
+                    "id" : 11,
+                    "x-slot" : 0,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "A Warp",
+                    "id" : 9,
+                    "x-slot" : 0,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "WarpOscA",
+                    "id" : 168,
+                    "x-slot" : 0,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "A Phase",
+                    "id" : 13,
+                    "x-slot" : 1,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "A RandPhase",
+                    "id" : 12,
+                    "x-slot" : 1,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "A Pan",
+                    "id" : 2,
+                    "x-slot" : 1,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "A Vol",
+                    "id" : 1,
+                    "x-slot" : 1,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "A Unison",
+                    "id" : 6,
+                    "x-slot" : 2,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "A UniDet",
+                    "id" : 7,
+                    "x-slot" : 2,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "A UniBlend",
+                    "id" : 8,
+                    "x-slot" : 2,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "A Octave",
+                    "id" : 3,
+                    "x-slot" : 2,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "A Semi",
+                    "id" : 4,
+                    "x-slot" : 3,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "A Fine",
+                    "id" : 5,
+                    "x-slot" : 3,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "A CoarsePit",
+                    "id" : 10,
+                    "x-slot" : 3,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Osc B On",
+                    "id" : 213,
+                    "x-slot" : 3,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "B WTPos",
+                    "id" : 24,
+                    "x-slot" : 4,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "B Warp",
+                    "id" : 22,
+                    "x-slot" : 4,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "WarpOscB",
+                    "id" : 169,
+                    "x-slot" : 4,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "B Phase",
+                    "id" : 26,
+                    "x-slot" : 4,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "B RandPhase",
+                    "id" : 25,
+                    "x-slot" : 5,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "B Unison",
+                    "id" : 19,
+                    "x-slot" : 5,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "B UniDet",
+                    "id" : 20,
+                    "x-slot" : 5,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "B UniBlend",
+                    "id" : 21,
+                    "x-slot" : 5,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "B Pan",
+                    "id" : 15,
+                    "x-slot" : 6,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "B Vol",
+                    "id" : 14,
+                    "x-slot" : 6,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "B Octave",
+                    "id" : 16,
+                    "x-slot" : 6,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "B Semi",
+                    "id" : 17,
+                    "x-slot" : 6,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "B Fine",
+                    "id" : 18,
+                    "x-slot" : 7,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "B CoarsePit",
+                    "id" : 23,
+                    "x-slot" : 7,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Osc S On",
+                    "id" : 215,
+                    "x-slot" : 7,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "SubOscShape",
+                    "id" : 170,
+                    "x-slot" : 7,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "SubOscOctave",
+                    "id" : 171,
+                    "x-slot" : 8,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Sub Osc Pan",
+                    "id" : 34,
+                    "x-slot" : 8,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Sub Osc Level",
+                    "id" : 33,
+                    "x-slot" : 8,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Osc N On",
+                    "id" : 214,
+                    "x-slot" : 8,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Noise Pitch",
+                    "id" : 28,
+                    "x-slot" : 9,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Noise Pan",
+                    "id" : 30,
+                    "x-slot" : 9,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Noise Level",
+                    "id" : 27,
+                    "x-slot" : 9,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Noise Phase",
+                    "id" : 32,
+                    "x-slot" : 9,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Noise RandPhase",
+                    "id" : 31,
+                    "x-slot" : 10,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Filter On",
+                    "id" : 216,
+                    "x-slot" : 10,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Fil Cutoff",
+                    "id" : 45,
+                    "x-slot" : 10,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Fil Reso",
+                    "id" : 46,
+                    "x-slot" : 10,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Fil Stereo",
+                    "id" : 50,
+                    "x-slot" : 11,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Fil Driv",
+                    "id" : 47,
+                    "x-slot" : 11,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Fil Var",
+                    "id" : 48,
+                    "x-slot" : 11,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Fil Mix",
+                    "id" : 49,
+                    "x-slot" : 11,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "OscA>Fil",
+                    "id" : 40,
+                    "x-slot" : 12,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "OscB>Fil",
+                    "id" : 41,
+                    "x-slot" : 12,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "OscN>Fil",
+                    "id" : 42,
+                    "x-slot" : 12,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "OscS>Fil",
+                    "id" : 43,
+                    "x-slot" : 12,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Env1 Atk",
+                    "id" : 35,
+                    "x-slot" : 13,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Env1 Hold",
+                    "id" : 36,
+                    "x-slot" : 13,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Env1 Dec",
+                    "id" : 37,
+                    "x-slot" : 13,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Env1 Sus",
+                    "id" : 38,
+                    "x-slot" : 13,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Env1 Rel",
+                    "id" : 39,
+                    "x-slot" : 14,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Env2 Atk",
+                    "id" : 51,
+                    "x-slot" : 14,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Env2 Hld",
+                    "id" : 52,
+                    "x-slot" : 14,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Env2 Dec",
+                    "id" : 53,
+                    "x-slot" : 14,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Env2 Sus",
+                    "id" : 54,
+                    "x-slot" : 15,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Env2 Rel",
+                    "id" : 55,
+                    "x-slot" : 15,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Env3 Atk",
+                    "id" : 56,
+                    "x-slot" : 15,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Env3 Hld",
+                    "id" : 57,
+                    "x-slot" : 15,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Env3 Dec",
+                    "id" : 58,
+                    "x-slot" : 16,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Env3 Sus",
+                    "id" : 59,
+                    "x-slot" : 16,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Env3 Rel",
+                    "id" : 60,
+                    "x-slot" : 16,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "LFO1 Rate",
+                    "id" : 61,
+                    "x-slot" : 16,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "LFO1 smooth",
+                    "id" : 223,
+                    "x-slot" : 17,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "LFO2 Rate",
+                    "id" : 62,
+                    "x-slot" : 17,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "LFO2 smooth",
+                    "id" : 224,
+                    "x-slot" : 17,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "LFO3 Rate",
+                    "id" : 63,
+                    "x-slot" : 17,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "LFO3 smooth",
+                    "id" : 225,
+                    "x-slot" : 18,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "LFO4 Rate",
+                    "id" : 64,
+                    "x-slot" : 18,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "LFO4 smooth",
+                    "id" : 226,
+                    "x-slot" : 18,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Bend U",
+                    "id" : 166,
+                    "x-slot" : 18,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Bend D",
+                    "id" : 167,
+                    "x-slot" : 19,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "PortTime",
+                    "id" : 65,
+                    "x-slot" : 19,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "PortCurve",
+                    "id" : 66,
+                    "x-slot" : 19,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "MasterVol",
+                    "id" : 0,
+                    "x-slot" : 19,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Hyp Enable",
+                    "id" : 163,
+                    "x-slot" : 20,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Hyp_Rate",
+                    "id" : 148,
+                    "x-slot" : 20,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Hyp_Wet",
+                    "id" : 147,
+                    "x-slot" : 20,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "HypDim_Size",
+                    "id" : 152,
+                    "x-slot" : 20,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "HypDim_Mix",
+                    "id" : 153,
+                    "x-slot" : 21,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Dist Enable",
+                    "id" : 154,
+                    "x-slot" : 21,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Dist_Mode",
+                    "id" : 99,
+                    "x-slot" : 21,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Dist_Drv",
+                    "id" : 97,
+                    "x-slot" : 21,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Dist_Wet",
+                    "id" : 96,
+                    "x-slot" : 22,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Flg Enable",
+                    "id" : 155,
+                    "x-slot" : 22,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Flg_Rate",
+                    "id" : 105,
+                    "x-slot" : 22,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Flg_Wet",
+                    "id" : 103,
+                    "x-slot" : 22,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Phs Enable",
+                    "id" : 156,
+                    "x-slot" : 23,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Phs_Rate",
+                    "id" : 111,
+                    "x-slot" : 23,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Phs_Wet",
+                    "id" : 109,
+                    "x-slot" : 23,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Cho Enable",
+                    "id" : 157,
+                    "x-slot" : 23,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Cho_Rate",
+                    "id" : 118,
+                    "x-slot" : 24,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Cho_Wet",
+                    "id" : 116,
+                    "x-slot" : 24,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Dly Enable",
+                    "id" : 158,
+                    "x-slot" : 24,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Dly_Feed",
+                    "id" : 132,
+                    "x-slot" : 24,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Dly_Wet",
+                    "id" : 124,
+                    "x-slot" : 25,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Comp Enable",
+                    "id" : 159,
+                    "x-slot" : 25,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Comp_Wet",
+                    "id" : 269,
+                    "x-slot" : 25,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Rev Enable",
+                    "id" : 160,
+                    "x-slot" : 25,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "VerbSize",
+                    "id" : 82,
+                    "x-slot" : 26,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Verb Wet",
+                    "id" : 81,
+                    "x-slot" : 26,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "EQ Enable",
+                    "id" : 161,
+                    "x-slot" : 26,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "EQ FrqL",
+                    "id" : 88,
+                    "x-slot" : 26,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "EQ Q L",
+                    "id" : 90,
+                    "x-slot" : 27,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "EQ VolL",
+                    "id" : 92,
+                    "x-slot" : 27,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "EQ TypL",
+                    "id" : 94,
+                    "x-slot" : 27,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "EQ FrqH",
+                    "id" : 89,
+                    "x-slot" : 27,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "EQ Q H",
+                    "id" : 91,
+                    "x-slot" : 28,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "EQ VolH",
+                    "id" : 93,
+                    "x-slot" : 28,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "EQ TypH",
+                    "id" : 95,
+                    "x-slot" : 28,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "FX Fil Enable",
+                    "id" : 162,
+                    "x-slot" : 28,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "FX Fil Type",
+                    "id" : 142,
+                    "x-slot" : 29,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "FX Fil Freq",
+                    "id" : 143,
+                    "x-slot" : 29,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "FX Fil Reso",
+                    "id" : 144,
+                    "x-slot" : 29,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "FX Fil Drive",
+                    "id" : 145,
+                    "x-slot" : 29,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "FX Fil Var",
+                    "id" : 146,
+                    "x-slot" : 30,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "FX Fil Pan",
+                    "id" : 268,
+                    "x-slot" : 30,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "FX Fil Wet",
+                    "id" : 141,
+                    "x-slot" : 30,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Macro 1",
+                    "id" : 218,
+                    "x-slot" : 30,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Macro 2",
+                    "id" : 219,
+                    "x-slot" : 31,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Macro 3",
+                    "id" : 220,
+                    "x-slot" : 31,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Macro 4",
+                    "id" : 221,
+                    "x-slot" : 31,
+                    "y-slot" : 2
+                }
+            ]
+        }
+    ]
+}

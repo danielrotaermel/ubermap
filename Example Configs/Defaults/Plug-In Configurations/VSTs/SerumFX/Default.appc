@@ -1,0 +1,714 @@
+{
+    "id" : "application/vnd.ableton.plugin-configuration",
+    "version" : "1.0",
+    "device-id" : "device:vst:audiofx:1483109209?n=SerumFX",
+    "groups" : [
+        {
+            "name" : "Default",
+            "parameters" : [
+                {
+                    "name" : "Hyp Enable",
+                    "id" : 163,
+                    "x-slot" : 0,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Hyp_Rate",
+                    "id" : 148,
+                    "x-slot" : 0,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Hyp_Detune",
+                    "id" : 149,
+                    "x-slot" : 0,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Hyp_Unison",
+                    "id" : 150,
+                    "x-slot" : 0,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Hyp_Wet",
+                    "id" : 147,
+                    "x-slot" : 1,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "HypDim_Size",
+                    "id" : 152,
+                    "x-slot" : 1,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "HypDim_Mix",
+                    "id" : 153,
+                    "x-slot" : 1,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Dist Enable",
+                    "id" : 154,
+                    "x-slot" : 1,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Dist_Mode",
+                    "id" : 99,
+                    "x-slot" : 2,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Dist_PrePost",
+                    "id" : 102,
+                    "x-slot" : 2,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Dist_Freq",
+                    "id" : 100,
+                    "x-slot" : 2,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Dist_BW",
+                    "id" : 101,
+                    "x-slot" : 2,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Dist_Drv",
+                    "id" : 97,
+                    "x-slot" : 3,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Dist_Wet",
+                    "id" : 96,
+                    "x-slot" : 3,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Flg Enable",
+                    "id" : 155,
+                    "x-slot" : 3,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Flg_Rate",
+                    "id" : 105,
+                    "x-slot" : 3,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Flg_BPM_Sync",
+                    "id" : 104,
+                    "x-slot" : 4,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Flg_Dep",
+                    "id" : 106,
+                    "x-slot" : 4,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Flg_Feed",
+                    "id" : 107,
+                    "x-slot" : 4,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Flg_Stereo",
+                    "id" : 108,
+                    "x-slot" : 4,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Flg_Wet",
+                    "id" : 103,
+                    "x-slot" : 5,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Phs Enable",
+                    "id" : 156,
+                    "x-slot" : 5,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Phs_Rate",
+                    "id" : 111,
+                    "x-slot" : 5,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Phs_BPM_Sync",
+                    "id" : 110,
+                    "x-slot" : 5,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Phs_Dpth",
+                    "id" : 112,
+                    "x-slot" : 6,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Phs_Frq",
+                    "id" : 113,
+                    "x-slot" : 6,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Phs_Feed",
+                    "id" : 114,
+                    "x-slot" : 6,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Phs_Stereo",
+                    "id" : 115,
+                    "x-slot" : 6,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Phs_Wet",
+                    "id" : 109,
+                    "x-slot" : 7,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Cho Enable",
+                    "id" : 157,
+                    "x-slot" : 7,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Cho_Rate",
+                    "id" : 118,
+                    "x-slot" : 7,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Cho_BPM_Sync",
+                    "id" : 117,
+                    "x-slot" : 7,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Cho_Dly",
+                    "id" : 119,
+                    "x-slot" : 8,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Cho_Dly2",
+                    "id" : 120,
+                    "x-slot" : 8,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Cho_Dep",
+                    "id" : 121,
+                    "x-slot" : 8,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Cho_Feed",
+                    "id" : 122,
+                    "x-slot" : 8,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Cho_Filt",
+                    "id" : 123,
+                    "x-slot" : 9,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Cho_Wet",
+                    "id" : 116,
+                    "x-slot" : 9,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Dly Enable",
+                    "id" : 158,
+                    "x-slot" : 9,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Dly_Feed",
+                    "id" : 132,
+                    "x-slot" : 9,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Dly_BPM_Sync",
+                    "id" : 127,
+                    "x-slot" : 10,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Dly_Link",
+                    "id" : 128,
+                    "x-slot" : 10,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Dly_TimL",
+                    "id" : 129,
+                    "x-slot" : 10,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Dly_TimR",
+                    "id" : 130,
+                    "x-slot" : 10,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Dly_Freq",
+                    "id" : 125,
+                    "x-slot" : 11,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Dly_BW",
+                    "id" : 126,
+                    "x-slot" : 11,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Dly_Mode",
+                    "id" : 131,
+                    "x-slot" : 11,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Dly_Wet",
+                    "id" : 124,
+                    "x-slot" : 11,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Comp Enable",
+                    "id" : 159,
+                    "x-slot" : 12,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Cmp_Thr",
+                    "id" : 135,
+                    "x-slot" : 12,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Cmp_Rat",
+                    "id" : 136,
+                    "x-slot" : 12,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Cmp_Att",
+                    "id" : 137,
+                    "x-slot" : 12,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Cmp_Rel",
+                    "id" : 138,
+                    "x-slot" : 13,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "CmpGain",
+                    "id" : 139,
+                    "x-slot" : 13,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "CmpMBnd",
+                    "id" : 140,
+                    "x-slot" : 13,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "CompMB H",
+                    "id" : 272,
+                    "x-slot" : 13,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "CompMB M",
+                    "id" : 271,
+                    "x-slot" : 14,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "CompMB L",
+                    "id" : 270,
+                    "x-slot" : 14,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Comp_Wet",
+                    "id" : 269,
+                    "x-slot" : 14,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Rev Enable",
+                    "id" : 160,
+                    "x-slot" : 14,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "VerbSize",
+                    "id" : 82,
+                    "x-slot" : 15,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "VerbPDly",
+                    "id" : 83,
+                    "x-slot" : 15,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "VerbLoCt",
+                    "id" : 84,
+                    "x-slot" : 15,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "VerbHiCt",
+                    "id" : 86,
+                    "x-slot" : 15,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "VerbDamp",
+                    "id" : 85,
+                    "x-slot" : 16,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "VerbWdth",
+                    "id" : 87,
+                    "x-slot" : 16,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Verb Wet",
+                    "id" : 81,
+                    "x-slot" : 16,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "EQ Enable",
+                    "id" : 161,
+                    "x-slot" : 16,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "EQ FrqL",
+                    "id" : 88,
+                    "x-slot" : 17,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "EQ Q L",
+                    "id" : 90,
+                    "x-slot" : 17,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "EQ VolL",
+                    "id" : 92,
+                    "x-slot" : 17,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "EQ TypL",
+                    "id" : 94,
+                    "x-slot" : 17,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "EQ FrqH",
+                    "id" : 89,
+                    "x-slot" : 18,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "EQ Q H",
+                    "id" : 91,
+                    "x-slot" : 18,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "EQ VolH",
+                    "id" : 93,
+                    "x-slot" : 18,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "EQ TypH",
+                    "id" : 95,
+                    "x-slot" : 18,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "FX Fil Enable",
+                    "id" : 162,
+                    "x-slot" : 19,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "FX Fil Type",
+                    "id" : 142,
+                    "x-slot" : 19,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "FX Fil Freq",
+                    "id" : 143,
+                    "x-slot" : 19,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "FX Fil Reso",
+                    "id" : 144,
+                    "x-slot" : 19,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "FX Fil Drive",
+                    "id" : 145,
+                    "x-slot" : 20,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "FX Fil Var",
+                    "id" : 146,
+                    "x-slot" : 20,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "FX Fil Pan",
+                    "id" : 268,
+                    "x-slot" : 20,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "FX Fil Wet",
+                    "id" : 141,
+                    "x-slot" : 20,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "MACRO 1",
+                    "id" : 218,
+                    "x-slot" : 21,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "MACRO 2",
+                    "id" : 219,
+                    "x-slot" : 21,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "MACRO 3",
+                    "id" : 220,
+                    "x-slot" : 21,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "MACRO 4",
+                    "id" : 221,
+                    "x-slot" : 21,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Env1 Atk",
+                    "id" : 35,
+                    "x-slot" : 22,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Env1 Hold",
+                    "id" : 36,
+                    "x-slot" : 22,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Env1 Dec",
+                    "id" : 37,
+                    "x-slot" : 22,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Env1 Sus",
+                    "id" : 38,
+                    "x-slot" : 22,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Env1 Rel",
+                    "id" : 39,
+                    "x-slot" : 23,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Env2 Atk",
+                    "id" : 51,
+                    "x-slot" : 23,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Env2 Hld",
+                    "id" : 52,
+                    "x-slot" : 23,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Env2 Dec",
+                    "id" : 53,
+                    "x-slot" : 23,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Env2 Sus",
+                    "id" : 54,
+                    "x-slot" : 24,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Env2 Rel",
+                    "id" : 55,
+                    "x-slot" : 24,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Env3 Atk",
+                    "id" : 56,
+                    "x-slot" : 24,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Env3 Hld",
+                    "id" : 57,
+                    "x-slot" : 24,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Env3 Dec",
+                    "id" : 58,
+                    "x-slot" : 25,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "Env3 Sus",
+                    "id" : 59,
+                    "x-slot" : 25,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "Env3 Rel",
+                    "id" : 60,
+                    "x-slot" : 25,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "LFO1 Rate",
+                    "id" : 61,
+                    "x-slot" : 25,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "LFO1 smooth",
+                    "id" : 223,
+                    "x-slot" : 26,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "LFO2 Rate",
+                    "id" : 62,
+                    "x-slot" : 26,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "LFO2 smooth",
+                    "id" : 224,
+                    "x-slot" : 26,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "LFO3 Rate",
+                    "id" : 63,
+                    "x-slot" : 26,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "LFO3 smooth",
+                    "id" : 225,
+                    "x-slot" : 27,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "LFO4 Rate",
+                    "id" : 64,
+                    "x-slot" : 27,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "LFO4 smooth",
+                    "id" : 226,
+                    "x-slot" : 27,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "Bend U",
+                    "id" : 166,
+                    "x-slot" : 27,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Bend D",
+                    "id" : 167,
+                    "x-slot" : 28,
+                    "y-slot" : 0
+                },
+                {
+                    "name" : "PortTime",
+                    "id" : 65,
+                    "x-slot" : 28,
+                    "y-slot" : 1
+                },
+                {
+                    "name" : "PortCurve",
+                    "id" : 66,
+                    "x-slot" : 28,
+                    "y-slot" : 2
+                },
+                {
+                    "name" : "MasterVol",
+                    "id" : 0,
+                    "x-slot" : 28,
+                    "y-slot" : 3
+                },
+                {
+                    "name" : "Dist_L/B/H",
+                    "id" : 98,
+                    "x-slot" : 29,
+                    "y-slot" : 0
+                }
+            ]
+        }
+    ]
+}
