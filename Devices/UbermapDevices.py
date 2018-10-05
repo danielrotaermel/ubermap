@@ -145,7 +145,7 @@ class UbermapDevices:
                         "got " + nameMapping[1] + " for " + nameMapping[0])
 
                     # support for dynamic parameter names such as macros that change names
-                    if nameMapping[0].split("_")[1] != i.original_name:
+                    if "_".join(nameMapping[0].split("_")[1:]) != i.original_name:
                         i.custom_name = i.original_name
                     else:
                         i.custom_name = nameMapping[1]
