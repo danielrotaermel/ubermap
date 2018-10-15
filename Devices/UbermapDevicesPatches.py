@@ -49,7 +49,7 @@ def apply_log_method_patches():
 
 
 # BankingUtil
-from pushbase import banking_util
+from ableton.v2.control_surface import banking_util
 
 
 def apply_banking_util_patches():
@@ -82,7 +82,7 @@ def apply_banking_util_patches():
 
 
 # DeviceParameterBank
-from pushbase.device_parameter_bank import DeviceParameterBank
+from ableton.v2.control_surface.device_parameter_bank import DeviceParameterBank
 
 
 def apply_device_parameter_bank_patches():
@@ -107,8 +107,8 @@ def apply_device_parameter_bank_patches():
 
 
 # DeviceComponent
-from pushbase.device_component import DeviceComponent
-from pushbase.parameter_provider import ParameterInfo
+from ableton.v2.control_surface.components import DeviceComponent
+from ableton.v2.control_surface import ParameterInfo
 
 # FIX MULTIPLE VERSION BEING
 
